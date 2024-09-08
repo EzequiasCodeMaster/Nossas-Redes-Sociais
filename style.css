@@ -74,10 +74,6 @@ header h1 {
     margin-top: 40px;
 }
 
-
-
-
-
 a {
   display: flex;
   align-items: center;
@@ -89,8 +85,7 @@ a {
     margin: 15px 20px;
     padding: 15px;
     
-    transition:transform 0.5s ease ;
-    animation: pulse 10s infinite;
+   
 }
 
 
@@ -113,6 +108,9 @@ a {
             width: 80vw;
             margin: 10px;
             border-radius: 15px;
+
+            transition:transform 0.5s ease ;
+            animation: pulse 5s infinite;
           }
           .linkpai:hover {
             border: 3px solid white;
