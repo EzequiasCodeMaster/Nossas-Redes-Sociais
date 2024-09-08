@@ -17,7 +17,7 @@
 body {
     
     height: 100vh; /* Garantir que o body ocupe toda a altura da tela */
-    background: linear-gradient(to bottom, #E3B39D, #CBD9C1, #D7E3CF, #2C2C2B, #0d0d0d69);
+    background: linear-gradient(to bottom, #A0E68E, #3CE693, #3CC7E6, #54E62C, #3CE6CE,#3CE65A);
     background-size: 300% 300%;
     animation: gradientMove 10s ease infinite;
   }
@@ -79,26 +79,19 @@ header h1 {
 
 
 a {
+  display: flex;
+  align-items: center;
     text-align: center;
-    width: 80vw;
     height: 7vh;
-    background-color: black;
     color: white;
     font-size: 2em;
     text-decoration: none;
-    margin: 10px 20px;
-    padding-top: 15px;
-    border-radius: 15px;
+    margin: 15px 20px;
+    padding: 15px;
+    
     transition:transform 0.5s ease ;
     animation: pulse 10s infinite;
 }
-
-    
-    
-    a:hover {
-        transform: translateY(-50px);
-
-    }
 
 
         @keyframes pulse  {
@@ -111,4 +104,32 @@ a {
             100% {
               transform: scale(1);
             }
+          }
+
+          .linkpai {
+            background-color: black;
+            display: flex;
+            align-items: center;
+            width: 80vw;
+            margin: 10px;
+            border-radius: 15px;
+          }
+          .linkpai:hover {
+            border: 3px solid white;
+          }
+
+         .linkfilho {
+          display: flex;
+          justify-content: space-evenly;
+          flex-flow: row wrap;
+          width: 90vw;
+         }
+
+  
+
+          img {
+            width: 9vw;
+            height: 7vh;
+            background-image: url(imagens/Instagram.png);
+             border-radius: 60%;
           }
